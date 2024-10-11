@@ -1,0 +1,95 @@
+/* src/components/Button.css */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn.disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+.btn.with-icon .icon {
+  margin-right: 8px;
+}
+
+.btn.default {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.btn.primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn.success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn.danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn.warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn.info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+/* Additional Custom Buttons */
+
+/* 11. Green Text & Border */
+.btn.green-text-border {
+  background-color: transparent;
+  color: green;
+  border: 2px solid green;
+}
+
+/* 12. Green Background & White Text */
+.btn.green-bg {
+  background-color: green;
+  color: white;
+}
+
+/* 13. Blue Border & Green Text */
+.btn.blue-border-green-text {
+  background-color: transparent;
+  color: green;
+  border: 2px solid blue;
+}
+
+/* 14. Outline with Green Text */
+.btn.outline-green {
+  background-color: transparent;
+  color: green;
+  border: 1px solid green;
+}
+
+/* Sizes */
+.btn.small {
+  font-size: 12px;
+  padding: 8px 16px;
+}
+
+.btn.medium {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.btn.large {
+  font-size: 18px;
+  padding: 12px 24px;
+}

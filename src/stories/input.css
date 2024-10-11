@@ -1,0 +1,57 @@
+/* src/components/Input.css */
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+/* Variants */
+.input.default {
+  border-color: #e0e0e0;
+  color: #000;
+}
+
+.input.primary {
+  border-color: #007bff;
+  color: #000;
+}
+
+.input.green-border {
+  border: 2px solid green;
+  color: green;
+}
+
+.input.colored-bg {
+  background-color: #f0f8ff;
+  border-color: #007bff;
+  color: #000;
+}
+
+.input.blue-border-green-text {
+  border: 2px solid blue;
+  color: green;
+}
+
+/* Sizes */
+.input.small {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.input.medium {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.input.large {
+  font-size: 18px;
+  padding: 12px;
+}
